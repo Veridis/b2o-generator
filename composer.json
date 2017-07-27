@@ -1,0 +1,19 @@
+{
+    "name": "veridis/b2o-generator",
+    "description": "Generateur de punchline",
+    "authors": [
+        {
+            "name": "Makdessi Alex",
+            "email": "alex.makdessi@me.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Veridis\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "^3.3",
+        "heidilabs/markov-php": "^0.4.0"
+    }
+}
